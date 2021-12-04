@@ -27,7 +27,6 @@ for d in data:
 bigger = 0
 n = 0
 for height in data3:
-    print(height)
     if height > data3[n-1]:
         bigger = bigger + 1
     n = n + 1
