@@ -1,5 +1,4 @@
 #Day 6 part 1
-
 datastring = open("DataDay6.txt", "r").read().split(",")
 data = [int(x) for x in datastring]
 
