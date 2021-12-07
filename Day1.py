@@ -4,8 +4,8 @@ sum = 1
 i = 0
 for height in data:
     if height >= data[i-1]:
-        sum = sum + 1
-    i = i + 1
+        sum += 1
+    i += 1
 print(sum)
 
 #Day 1 part 2
@@ -21,13 +21,13 @@ for d in data:
     sum = int(lst[0]) + int(lst[1]) + int(lst[2])
     data3.append(sum)
     
-    i = i + 1
-    j = j + 1
+    i += 1
+    j += 1
 
 bigger = 0
 n = 0
 for height in data3:
     if height > data3[n-1]:
-        bigger = bigger + 1
-    n = n + 1
+        bigger += 1
+    n += 1
 print(bigger)
