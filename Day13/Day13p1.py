@@ -6,7 +6,7 @@ with open("DataDay13.txt", "r") as f:
 
 
 def paper(data):
-    paper = np.zeros((1070,1311))
+    paper = np.zeros((895,1311))
     for points in data[:799]:
         x, y = points.split(",")
         paper[int(y)][int(x)] = 1
