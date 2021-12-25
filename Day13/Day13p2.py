@@ -72,5 +72,8 @@ for line in foldedpaper:
             foldedpaper[i][j] = 1.
         j += 1
     i += 1
-for num in foldedpaper:
-    print(num)  
+
+for i in range(8):
+    for num in foldedpaper:
+        print(num[i*5:i*5+4])
+    print("-------")
